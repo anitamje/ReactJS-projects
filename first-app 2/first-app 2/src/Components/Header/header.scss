@@ -1,0 +1,16 @@
+.header {
+    margin-top: 51px;
+    min-height: calc(100vh - 51px);
+    background-image: url(../../assets/images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        background-color: rgba($color: #fff, $alpha: 0.3);
+        padding: 30px;
+    }
+}

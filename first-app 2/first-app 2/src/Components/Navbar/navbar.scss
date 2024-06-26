@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000040;
+   
+    img {    // .navbar img {}
+        height: 50px;
+        margin-left: 15px;
+    }
+    ul {
+        padding-left: 0;
+        display: flex;
+        list-style-type: none;
+    }
+    a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: darkblue;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
