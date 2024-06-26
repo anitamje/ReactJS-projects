@@ -1,0 +1,32 @@
+.nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid black;
+
+  img {
+    height: 40px;
+  }
+  a {
+    margin-right: 20px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: calc(33.33% - 20px);
+  padding: 10px;
+
+  img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+}
